@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES6",
+    "declaration": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "baseUrl": "./",
+    "types": ["cypress"]
+  },
+    "include": ["src/**/*.ts", "src/**/*.d.ts"],
+    "exclude": ["node_modules", "dist"]
+}

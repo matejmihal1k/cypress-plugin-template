@@ -1,0 +1,26 @@
+{
+  "author": "Matej Mihálik",
+  "license": "ISC",
+  "name": "cypress-plugin-template",
+  "version": "1.0.0",
+  "description": "Template for creating a Cypress plugin",
+  "keywords": ["cypress", "plugin"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+    "files": ["/dist/*"],
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  },
+  "dependencies": {
+    "typescript": "^5.0.2"
+  },
+  "peerDependencies": {
+    "cypress": ">=10"
+  }
+}

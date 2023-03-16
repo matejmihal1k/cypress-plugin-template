@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES5","DOM"],
+    "types": ["node", "cypress"],
+    "typeRoots": ["../dist"],
+    "baseUrl": "./"
+  },
+    "include": ["**/*.ts"],
+}
